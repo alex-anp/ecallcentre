@@ -1,0 +1,65 @@
+/*
++ ----------------------------------------------------------------------------------------------+
+|     e107 website system  : http://e107.org.ru
+|     Released under the terms and conditions of the GNU General Public License (http://gnu.org).
+|
+|     Plugin "eCallCentre"
+|     Author: Alex ANP alex-anp@ya.ru
+|     Home page: http://code.google.com/p/ecallcentre/
++-----------------------------------------------------------------------------------------------+
+*/
+
+body {
+	color: #666666;
+	font-size: 11px;
+	font-family: Verdana, Helvetica, Arial, Sans-Serif;
+	margin: 0px 0px 0px 0px;
+	}
+a, a:visited{
+	color: #0066cc;
+	text-decoration: none;
+	}
+	
+a:hover{
+	text-decoration: underline;
+	color: red;
+	}
+
+
+h2 {
+	color: #6B030B;
+	font-size: 20px;
+	font-family: Helvetica, Arial, Sans-Serif;
+	font-weight: bold;
+	margin: 0px;
+	line-height: 150%;
+	}
+	
+.client_table {
+	collapse:collapsed;
+	border-bottom: solid #6B030B 3px;
+	border-collapse: separate; 
+	border-spacing: 0;
+}
+.client_table tr {vertical-align:top}
+.client_table tr:ntd-child(even) {background: #CCC}
+.client_table tr:ntd-child(odd) {background: #FFF}
+
+.client_table th {
+	color: #ffffff;
+	font-size: 9px;
+	border-left: solid #6B030B 1px;
+	border-right: solid #6B030B 1px;
+	background: #6B030B;
+}
+.client_table td {
+	color: #000000;
+	font-size: 9px;
+	border-left: solid 6B030B 1px;
+	border-right: solid 6B030B 1px;
+	border-bottom: solid #6B030B 1px;
+}
+#client_name {
+	margin-bottom: 10px;
+	text-align:right;
+}
