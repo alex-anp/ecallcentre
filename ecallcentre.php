@@ -576,7 +576,7 @@ function saveTicket($id){
 		$hard_id = checkPost($_POST['hard_id']);
 		$hard = getObj('hard', $hard_id);
 		$client_id = $hard['client_id'];
-		$comments = ($_POST['new_comment'] ? $username.' '.date("j M").': '.$_POST['new_comment'] : '');
+		$comments = ($_POST['new_comment'] ? $username.' '.date("d.m.Y H:i").' - '.$_POST['new_comment'] : '');
 		$attache = join(eCC_SEPARATOR, process_upload());
 		$values = array(
 			"client_id"       => $tp->toDB($client_id),
